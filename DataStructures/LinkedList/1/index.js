@@ -2,13 +2,13 @@ class Link {
 	constructor(id, data) {
 		this.id = id;
 		this.data = data;
-		let next;
+		this.next = null;
 	}
 }
 
 class LinkList {
 	constructor() {
-		let first = null;
+		this.first = null;
 	}
 
 	insertFirst(id, data) {
